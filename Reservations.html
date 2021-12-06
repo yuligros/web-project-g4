@@ -2,44 +2,209 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="SearchResults.css">
+    <link rel="stylesheet" href="header_and_footer.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservations</title>
 </head>
 <body>
-    <div id="GridContainter">
-        <div id="header">
-                My Reservations  
-                              
+    <!-- header -->
+    <div class="col-12-bar">
+        <div class="col-2-bar">
+            <a href="home1.html">
+                <img src="images/logo.PNG" id = "logo">
+            </a>
         </div>
-        <div id="left">
-            <a href="cv.html" class="button">Home</a>
+
+        <div class="col-2-bar">
+            <a href="MyReservation.html" class="footer">
+                <button class="headerBTN">My reservation</button>
+            </a>
         </div>
-        <div id="main">
-            <div id="Taizu">
-                <img src="img/taizu.png" alt="Taizu" style="width: 5%;" > 
-                <h1>Taizu - Menachem Begin 23, Tel Aviv</h1>                
-                <p>
-                    December 19, 2021 at 20:30
-                    3 people
-                </p>                     
-            <div><br><br>
-            <div id="ThaiH">
-                <img src="img/thaihouse.png" alt="Taizu" style="width: 5%;" > 
-                <h1>Thai House - Bugrashov 8, Tel Aviv</h1>                
-                <p>
-                    December 29, 2021 at 19:30
-                    5 people
-                </p>                     
-            <div>
+
+        <div class="col-2-bar">
+            <a href="LiveMap.html" class="footer">
+                <button class="headerBTN">Map</button>
+            </a>
         </div>
-        <div id="footer">
-            <a href="cv.html" class="button">Reservations</a>
-            <a href="cv.html" class="button">Map</a>
-            <a href="cv.html" class="button">About</a>
-            <a href="cv.html" class="button">Help</a>
+
+        <div class="col-2-bar">
+            <a href="About.html" class="footer">
+                <button class="headerBTN">About</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="Help.html" class="footer">
+                <button class="headerBTN">Help</button>
+            </a>
+        </div>
+
+
+        <div class="col-2-bar">
+            <a href="signin.html" class="footer">
+                <button class="headerBTN" id="login">Log in/ Sign in</button>
+            </a>
         </div>
     </div>
+
+    <!-- main -->
+    <div class="col-12">
+        <div class="col-3">
+            <div class="resImg">
+                <img src="images/asian.PNG" style="width: 100%;"><br><br>
+                <img src="images/beit_kandinof.PNG" style="width: 100%;" ><br><br>
+                <img src="images/wine.PNG" style="width: 100%;"><br><br>
+                <img src="images/food.PNG" style="width: 100%;"><br><br>
+                <img src="images/gaia_garden.png" style="width: 100%;"><br>
+            </div>
+        </div>
+        <div class="col-6">
+            <form action="" class="main">
+                <div id="MyResHeader">
+                    My Reservations
+                </div>
+                <div class="resturant">
+                    <div class="col-3">
+                        <div class="images">
+                            <img src="images/thaihouse.png" alt="Thai_House" style="width: 80%;" >
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text">
+                            <h1>Thai House</h1>
+                            <p>
+                                December 19, 2021 at 20:30 &#9679 3 people
+                            </p>
+                            <a href="home1.html" class="website_button">Book again</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" style="width: 20%;" >
+                                <h4>03-5178568</h4>
+                            </div>
+                            <a href="https://www.thai-house.co.il/" class="website_button">Website</a>
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="resturant">
+                    <div class="col-3">
+                        <div class="images">
+                            <img src="images/taizu.png" alt="Taizu" style="width: 80%;">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text">
+                            <h1>Taizu</h1>
+                            <p>
+                                January 3, 2022 at 19:00 &#9679 4 people
+                            </p>
+                            <a href="home1.html" class="website_button">Book again</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" width="20%" >
+                                <h4>03-5225005</h4>
+                            </div>
+                            <a href="https://www.taizu.co.il/" class="website_button">Website</a>
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="resturant">
+                    <div class="col-3">
+                        <div class="images">
+                            <img src="images/Cramim.png" alt="Cramim" style="width: 80%;" >
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="text">
+                            <h1>Cramim</h1>
+                            <p>
+                                December 25, 2021 at 21:00 &#9679 5 people
+                            </p>
+                            <a href="home1.html" class="website_button">Book again</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" style="width: 20%;" >
+                                <h4>08-9966444</h4>
+                            </div>
+                            <a href="https://www.cramimrest.co.il/%D7%9B%D7%A8%D7%9E%D7%99%D7%9D-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/" class="website_button">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-3">
+            <div class="resImg">
+                <img src="images/asian.PNG" style="width: 100%;"><br><br>
+                <img src="images/beit_kandinof.PNG" style="width: 100%;" ><br><br>
+                <img src="images/wine.PNG" style="width: 100%;"><br><br>
+                <img src="images/food.PNG" style="width: 100%;"><br><br>
+                <img src="images/gaia_garden.png" style="width: 100%;"><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="col-12-footer">
+
+        <div class="col-4-footer">
+            <div class="col-12-footer">
+                <img src="images/logo.PNG" class = "logo"><br>
+                <h1 id="FootCont">Contact us - 052-5225280</h1>
+            </div>
+            <div class="col-12-footer">
+              <button class="button1_left" onclick="topFunction()" id="topFunction" title="Back to top">Back to top</button>
+            </div>
+        </div>
+
+        <div class="col-4-footer">
+            <div class="rowFooter">
+                <div class="col-12-footer">
+                    <a href="otherPage.html" class="footer">
+                        <button class="footerBTN">My reservation</button>
+                    </a>
+                </div>
+
+                <div class="col-12-footer">
+                    <a href="flowersPage.html" class="footer">
+                        <button class="footerBTN">Map</button>
+                    </a>
+                </div>
+
+                <div class="col-12-footer">
+                    <a href="halotPage.html" class="footer">
+                        <button class="footerBTN">About</button>
+                    </a>
+                </div>
+                <div class="col-12-footer">
+                    <a href="about.html" class="footer">
+                        <button class="footerBTN">Help</button>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col-4-footer">
+
+
+        </div>
+    </div>
+
 </body>
 </html>
