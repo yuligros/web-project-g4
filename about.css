@@ -208,3 +208,12 @@ display: table;
     background-image: url('https://media.istockphoto.com/photos/people-laughing-at-dinner-table-picture-id1181396290?k=20&m=1181396290&s=612x612&w=0&h=HuHaBwesWsMnlZeoBOMqsa_xbo6H0nc3Vfa2CN_We2g=');
   }
 }
+
+#About {
+    text-align: center;
+}
+
+#images {
+    width: 20%;
+    text-align: center;
+}

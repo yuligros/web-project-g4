@@ -12,11 +12,8 @@ src: url(AmaticSC-Bold.ttf);
 [class*="col-"] {
   float: left;
   padding: 15px;
-<<<<<<< HEAD
-  /* border: 1px solid red; */
-=======
   border: 1px solid red;
->>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
+
 }
 
 .row::after {
@@ -51,17 +48,13 @@ display: table;
     width: 50%;
 }
 
-/* .home_form {
+.home_form {
     border: none;
     padding-right: 10px;
     text-align: center;
     font-size:20px;
-<<<<<<< HEAD
-
-} */
-=======
 }
->>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
+
 
 #login{
     border: none;
@@ -253,43 +246,3 @@ display: table;
 
 }
 
-/* #searchBar{
-    all: unset;
-    font: 16px system-ui;
-    color: rgb(4, 46, 160);
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
-  
-  }
-  
-  ::placeholder {
-      color: rgb(3, 3, 3);
-      opacity: 0.7; 
-    }
-  
-  #SB{
-    width: 300px;
-    height: 44px;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    border: solid 2px black;
-  }
-  
-  button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  }
-    
-    svg {
-      color: rgb(2, 5, 182);
-      fill: currentColor;
-      width: 24px;
-      height: 24px;
-      padding: 10px;
-    }
-   */
-    
