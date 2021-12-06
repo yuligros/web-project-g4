@@ -18,7 +18,11 @@ src: url(AmaticSC-Bold.ttf);
 [class*="col-"] {
   float: left;
   padding: 15px;
+<<<<<<< HEAD
+  /* border: 1px solid red; */
+=======
   border: 1px solid red;
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
 }
 
 .row::after {
@@ -42,11 +46,14 @@ display: table;
 
 /*---header-----*/
 
+<<<<<<< HEAD
+=======
 .logo {
     text-align: left;
     width: 50%;
 }
 
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
 #login{
     border: none;
     padding-right: 10px;
@@ -105,6 +112,8 @@ display: table;
 
 
 /*---footer-----*/
+<<<<<<< HEAD
+=======
 .button1_left {
     width: 50%;
     font-size: 20px;
@@ -119,6 +128,7 @@ display: table;
     background-color: #E2DAD5;
     color: #48422a;
 }
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
 
 .footer {
     text-align: center;
@@ -138,7 +148,11 @@ display: table;
 .footerBTN {
     padding:0px;
     font-size:25px;
+<<<<<<< HEAD
+    color: #f1f1f1;
+=======
     color: gray;
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
     background:none;
     border-color: #ACACAC;
     border-width: 1px;
@@ -152,6 +166,13 @@ display: table;
     padding-right:4px;
  }
 
+<<<<<<< HEAD
+#FootCont {
+    font-size:25px;
+    color: #f1f1f1;
+    text-align: left;
+    font-family: font1;
+=======
 .footer img{
     width:30%;
     text-align: center;
@@ -163,6 +184,7 @@ display: table;
     text-align: center;
     font-family: font1;
     background: #E2DAD5;
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3
 }
 
 .col-4-footer {
@@ -172,6 +194,11 @@ display: table;
 
 .col-12-footer {
     width: 100%;
+<<<<<<< HEAD
+    background-color: #9c7c81;
+    color: #f1f1f1;
+}
+=======
     background-color: #E2DAD5;
     color: gray;
     text-align: center;
@@ -185,3 +212,4 @@ display: table;
     font-family: font1;
     background: #E2DAD5;
 }
+>>>>>>> de8fde083770cbadfdffef29d617a11b99b0c4a3

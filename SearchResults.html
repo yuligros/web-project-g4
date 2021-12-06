@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="header_and_footer.css">
+    <link rel="stylesheet" href="SearchResults.css">    
+    <!-- <script src="SearchResults.js"> </script>            -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+</head>
+
+
+<body>
+    <!-- header -->
+    <div class="col-12-bar">
+        <div class="col-2-bar">
+            <a href="home1.html">
+                <img src="images/logo.PNG" id = "logo">
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="MyReservation.html" class="footer">
+                <button class="headerBTN">My reservation</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="LiveMap.html" class="footer">
+                <button class="headerBTN">Map</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="About.html" class="footer">
+                <button class="headerBTN">About</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="Help.html" class="footer">
+                <button class="headerBTN">Help</button>
+            </a>
+        </div>
+
+
+        <div class="col-2-bar">
+            <a href="signin.html" class="footer">
+                <button class="headerBTN" id="login">Log in/ Sign in</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="col-12">
+        <div class="col-2">   
+            <div id="Left">
+                <label for="DiningOptions" class="opt">Dining Options</label><br>
+                <input type="radio" id="All" name="Doption">
+                <label for="all">All</label><br>     
+                <input type="radio" id="delivery" name="Doption" >
+                <label for="delivery">Delivery Only</label><br>
+                <input type="radio" id="takeOut" name="Doption" >
+                <label for="takeOut">Takeout Only</label><br><br> 
+                
+                <label for="SeatingOptions" class="opt">Seating Options</label><br>
+                <input type="checkbox" id="Bar" name="Soption" >
+                <label for="Bar">Bar</label><br>     
+                <input type="checkbox" id="Inside" name="Soption" >
+                <label for="Inside">Inside</label><br>
+                <input type="checkbox" id="Outside" name="Soption" >
+                <label for="Outside">Outside</label><br><br>
+                
+                <label for="Regions" class="opt">Regions</label><br>
+                <input type="checkbox" id="TLV" name="Region" >
+                <label for="TLV">Tel Aviv</label><br>     
+                <input type="checkbox" id="BSH" name="Region" >
+                <label for="BSH">Beer Sheva</label><br>
+                <input type="checkbox" id="JLM" name="Region" >
+                <label for="JLM">Jerusalem</label><br>
+                <input type="checkbox" id="HFA" name="Region" >
+                <label for="HFA">Haifa</label><br><br>
+
+                <label for="Cuisine" class="opt">Cuisine</label><br>
+                <input type="checkbox" id="Italian" name="CSN" >
+                <label for="Italian">Italian</label><br>     
+                <input type="checkbox" id="SteakHouse" name="CSN" >
+                <label for="SteakHouse">Steak House</label><br>
+                <input type="checkbox" id="French" name="CSN" >
+                <label for="French">French</label><br>
+                <input type="checkbox" id="Indian" name="CSN" >
+                <label for="Indian">Indian</label><br>
+                <input type="checkbox" id="Mexican" name="CSN" >
+                <label for="Mexican">Mexican</label><br>
+                <input type="checkbox" id="Asian" name="CSN" >
+                <label for="Asian">Asian</label><br><br>
+
+                <label for="Price" class="opt">Price</label><br>
+                <input type="checkbox" id="30U" name="PRC" >
+                <label for="30U">30 and under</label><br>     
+                <input type="checkbox" id="30TWO50" name="PRC" >
+                <label for="30TWO50">30-50</label><br>
+                <input type="checkbox" id="50Plus" name="PRC" >
+                <label for="50Plus">50 and over</label><br><br>
+            </div>         
+                    
+        </div>            
+
+        <div class="col-7">
+            <form action="" class="main">
+                <div class="wrap">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Search for a resturant">
+                        <button type="submit" class="searchButton" >
+                            Search
+                        </button>
+                    </div>
+                </div><br>
+                            
+                <div class="resturant">
+                    <div class="col-2">
+                        <div class="images">
+                            <img src="images/thaihouse.png" alt="Thai_House" style="width: 80%;" > 
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="text">
+                            <h1>Thai House</h1>
+                            <p>
+                                Asian &#9679 50 and over &#9679 Tel Aviv                               
+                            </p> 
+                            <div class="hours">
+                                <button>14:00</button>
+                                <button>15:00</button>
+                                <button>16:00</button>
+                                <button>17:00</button>
+                                <button>18:00</button>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-2">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" style="width: 20%;" >
+                                <h4>03-5178568</h4>
+                            </div>                  
+                            <a href="https://www.thai-house.co.il/">Website</a>                    
+                        </div>
+                    </div>           
+                </div><br>
+                
+                <div class="resturant">
+                    <div class="col-2">
+                        <div class="images">
+                            <img src="images/taizu.png" alt="Taizu" style="width: 80%;">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="text">
+                            <h1>Taizu</h1>
+                            <p>
+                                Asian &#9679 50 and over &#9679 Tel Aviv
+                            </p>                              
+                            <div class="hours">
+                                <button>14:00</button>
+                                <button>15:00</button>
+                                <button>16:00</button>
+                                <button>17:00</button>
+                                <button>18:00</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" width="20%" >
+                                <h4>03-5225005</h4>
+                            </div>                            
+                            <a href="https://www.taizu.co.il/">Website</a>                    
+                        </div>
+                    </div>       
+                </div><br>
+
+                <div class="resturant">
+                    <div class="col-2">
+                        <div class="images">
+                            <img src="images/Cramim.png" alt="Cramim" style="width: 80%;" > 
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="text">
+                            <h1>Cramim</h1>
+                            <p>
+                                Steak House &#9679 30-50 &#9679 Beer Sheva
+                            </p> 
+                            <div class="hours">
+                                <button>14:00</button>
+                                <button>15:00</button>
+                                <button>16:00</button>
+                                <button>17:00</button>
+                                <button>18:00</button>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-2">
+                        <div class="contact">
+                            <h3>Contact</h3>
+                            <div class="contactPhone">
+                                <img src="images/phone.png" alt="phone" style="width: 20%;" >
+                                <h4>08-9966444</h4>
+                            </div>                  
+                            <a href="https://www.cramimrest.co.il/%D7%9B%D7%A8%D7%9E%D7%99%D7%9D-%D7%91%D7%90%D7%A8-%D7%A9%D7%91%D7%A2/">Website</a>                    
+                        </div>
+                    </div>           
+                </div>
+            </form>
+            
+        </div> 
+        <div class="col-3">
+            <div class="resImg">
+                <img src="images/asian.PNG" style="width: 100%;"><br><br>
+                <img src="images/beit_kandinof.PNG" style="width: 100%;" ><br><br>
+                <img src="images/wine.PNG" style="width: 100%;"><br><br>
+                <img src="images/food.PNG" style="width: 100%;"><br><br>
+                <img src="images/gaia_garden.png" style="width: 100%;"><br>
+            </div>            
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="col-12-footer">
+
+        <div class="col-4-footer">
+            <div class="col-12-footer">
+                <img src="images/logo.PNG" class = "logo"><br>
+                <h1 id="FootCont">Contact us - 052-5225280</h1>
+            </div>
+            <div class="col-12-footer">
+              <button class="button1_left" onclick="topFunction()" id="topFunction" title="Back to top">Back to top</button>
+            </div>
+        </div>
+    
+        <div class="col-4-footer">
+            <div class="rowFooter">
+                <div class="col-12-footer">
+                    <a href="otherPage.html" class="footer">
+                        <button class="footerBTN">My reservation</button>
+                    </a>
+                </div>
+    
+                <div class="col-12-footer">
+                    <a href="flowersPage.html" class="footer">
+                        <button class="footerBTN">Map</button>
+                    </a>
+                </div>
+    
+                <div class="col-12-footer">
+                    <a href="halotPage.html" class="footer">
+                        <button class="footerBTN">About</button>
+                    </a>
+                </div>
+                <div class="col-12-footer">
+                    <a href="about.html" class="footer">
+                        <button class="footerBTN">Help</button>
+                    </a>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="col-4-footer">
+    
+    
+        </div>
+    </div>
+     
+</body>
+</html>
