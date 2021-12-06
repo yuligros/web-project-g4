@@ -4,7 +4,7 @@
 }
 
 body {
-	background: url(restaurant-interior.jpg);
+	
 	background-size: cover;
 	background-position: center;
 	font-family: 'Open Sans', sans-serif;
@@ -41,7 +41,7 @@ body {
 
 .form-control {
 	margin-bottom: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 	position: relative;
 }
 
@@ -111,15 +111,15 @@ body {
 	display: block;
 	font-family: inherit;
 	font-size: 16px;
-	padding: 10px;
+	padding: 20px;
 	margin-top: 20px;
 	width: 100%;
 }
 
 
-
-
-
+h2 {
+	text-align: center;
+}
 
 
 

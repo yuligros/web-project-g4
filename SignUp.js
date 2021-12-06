@@ -17,11 +17,11 @@ function checkInputs() {
 	const passwordValue = password.value.trim();
 	const password2Value = password2.value.trim();
 	
-	if(usernameValue === '') {
+	 if(usernameValue === '') {
 		setErrorFor(username, 'Username cannot be blank');
 	} else {
 		setSuccessFor(username);
-	}
+	 }
 	
 	if(emailValue === '') {
 		setErrorFor(email, 'Email cannot be blank');
@@ -70,4 +70,5 @@ function myFunction() {
       x.type = "password";
     }
   }
+  
   
