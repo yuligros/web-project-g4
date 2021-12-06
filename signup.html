@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="header_and_footer.css">
+    <link rel="stylesheet" href="signup.css">
     <script src="home.js"></script>
+    <title>login</title>
 </head>
+
 <body>
-
-
-<!-------- geolocation -------->
-<script>
-     const successCallback = (position) => {
-       console.log(position);
-     };
-     const errorCallback= (error) => {
-       console.log(error);
-     };
-     navigator.geolocation.getCurrentPosition(successCallback, errorCallback, {
-      enableHighAccuracy: true
-     });
-
-</script>
-
 <!-------- Welcome bar -------->
 
 <div class="col-12-bar">
@@ -69,53 +56,48 @@
 <!-------- Search -------->
 
 <div class="col-12 findTable">
-      <form action="" method="post" class="home_form">
-
         <div class="col-3">
-            <div class="col-4-location" >
-                 <h3>Search based on your current location</h3>
-                <a href="Location.html" class="footer">
-                    <img class="center" src="images/map.png" class = "location1">
-                </a>
-            </div>
 
-            <div class="col-4-location" >
-                <h3>NEAR YOU</h3>
-                <P><strong>Méli-Mélo</strong><br>Dining Bar - Cocktails</P>
-                <a href="https://www.facebook.com/melimelotlv/">
-                        <img class="center" src="images/left1.PNG">
-                </a>
-                <P><strong>Dalida</strong><br>Mediterranean - Chef</P>
-                <a href="https://en.dalidatlv.co.il/">
-                        <img class="center" src="images/left2.PNG">
-                </a>
-            </div>
-          </div>
+        </div>
+
 
           <div class="col-6" id = "main_search">
-                <h1 >Find your table</h1><br>
-                <label class="labels" for="date">Date</label><br>
-                <input type="date" id="date" name="date"><br>
-                <label class="labels" for="time">Time</label><br>
-                <input type="time" id="time" name="time"><br>
-                <label class="labels" for="num_people">People</label><br>
-                <input id = "num_people" type="number" name="number"><br>
-                <label class="labels" for="location">Location</label><br>
-                <input id = "location" type="location" name="location"><br><br>
-                <button class="button1" type="submit">Find me a SIT</button>
-          </div>
+             <div class="info">
+                   <form action="action_page.php" style="border:none">
+                            <h2 class="title1">Join SitMe</h2>
+                            <label for="email" class="labels">Email</label><br>
+                            <input type="text" placeholder="Enter your email adress" id="email" required><br>
+                            <label for="password" class="labels">Password</label><br>
+                            <input type="password" placeholder="Select a password" id="password" required><br>
+                            <label for="pssword_repeat" class="labels"></b></label>
+                            <input type="password" placeholder="Confirm password" id="pssword_repeat" required><br>
+                            <label for="name" class="labels">Full name</label><br>
+                            <input type="text" placeholder="Insert full name" id="name" required><br>
+
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                            </label><br>
+
+                            <p>I agree to SitMe privacy policy and terms of service <br><a href="terms%20of%20use.html" style="color:dodgerblue">Terms & Privacy</a></p>
+                            <br>
+
+                            <div class="clearfix">
+                                <button class="button1" type="submit" class="signupbtn">Sign up</button>
+                            </div>
+                            <br>
+            </form>
+        </div>
+
+      </div>
 
           <div class="col-3" id = right_photos>
-                <img src="images/asian.PNG" class="center"><br>
-                <img src="images/beit_kandinof.PNG" class="center" ><br>
-                <img src="images/wine.PNG" class="center" ><br>
-                <img src="images/food.PNG" class="center" ><br>
-                <img src="images/gaia_garden.png" class="center"><br>
+
           </div>
 
 
       </form>
 </div>
+
 
 <!-------- footer -------->
 

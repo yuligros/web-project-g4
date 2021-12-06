@@ -8,60 +8,56 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     
-    <title>document</title>
+    <title>Sign Up</title>
 
 
 </head>
 <body>
-<div class = "container">
-    <div class = "header">
-        <h2>Create Account</h2>
+
+    <div class="container">
+        <div class="header">
+            <h2>Welcome to SitMe!</h2>
+        </div>
+       <form id="form" class="form">
+            <div class="form-control">
+             <label for="username"></label>
+                <input type="text" placeholder="User Name" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username"></label>
+                <input type="email" placeholder="Email" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username"></label>
+                <input type="password" placeholder=" Enter Password" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username"></label>
+                <input type="password" placeholder="Confirm Password" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+           <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+<label id ="cb" for="checkbox_id">I agree to SitMe <a id = "tos" href="terms of use.html">Terms of Service</a></label>
+
+            <button>Create Account</button>
+          
+        </form>
     </div>
-    <from class="form" id="form">
-        
-        <div class="form-control">
-            <label> User name</label>
-            <input type="text" placeholder="example07070" id="username">
-            <i class="fas fa-check-circle"></i>
-            <i class = "fas fa-exclamation-circle"></i>
-            <small>Error Message</small>
-
-        </div>
-        
-
-        <div class="form-control">
-            <label>Email</label>
-            <input type="email" placeholder="example@sitme.com" id="email">
-            <i class="fas fa-check-circle"></i>
-            <i class = "fas fa-exclamation-circle"></i>
-            <small>Error Message</small>
-
-        </div>
-
-        
-        <div class="form-control">
-            <label>Password</label>
-            <input type="password" placeholder="Password" id="password">
-            <i class="fas fa-check-circle"></i>
-            <i class = "fas fa-exclamation-circle"></i>
-            <small>Error Message</small>
-
-        </div>
-
-        
-        <div class="form-control">
-            <label> Confirm Password</label>
-            <input type="password" placeholder=" Confirm Password" id="password2">
-            <i class="fas fa-check-circle"></i>
-            <i class = "fas fa-exclamation-circle"></i>
-            <small>Error Message</small>
-
-        </div>
-        <button type="submit">Submit</button>
-    </from>
-</div>  
 
 <script src="SignUp.js"></script>
+
+
 </body>
 <footer>
    
