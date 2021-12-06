@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+
+<!-------- Welcome bar -------->
+
+<div class="col-12-bar">
+        <div class="col-2-bar">
+            <a href="home1.html">
+                <img src="images/logo.PNG" id = "logo">
+            </a>
+        </div>
+
+
+        <div class="col-2-bar">
+            <a href="MyReservation.html" class="footer">
+                <button class="headerBTN">My reservation</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="LiveMap.html" class="footer">
+                <button class="headerBTN">Map</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="About.html" class="footer">
+                <button class="headerBTN">About</button>
+            </a>
+        </div>
+
+        <div class="col-2-bar">
+            <a href="Help.html" class="footer">
+                <button class="headerBTN">Help</button>
+            </a>
+        </div>
+
+
+        <div class="col-2-bar">
+            <a href="signin.html" class="footer">
+                <button class="headerBTN" id="login">Log in/ Sign in</button>
+            </a>
+        </div>
+</div>
+
+
+<!-------- Search -------->
+
+<div class="col-12 findTable">
+      <form action="" method="post" class="home_form">
+
+          <div class="col-4">
+            <div class="col-4-location" >
+                 <h3>Search based on your current location</h3><br>
+                <a href="Location.html" class="footer">
+                    <img class="center" src="images/map.png" class = "location1">
+                </a>
+            </div>
+
+            <div class="col-4-location" >
+                <h3>NEAR YOU</h3>
+                <P><strong>Méli-Mélo</strong><br>Dining Bar - Cocktails</P>
+                <a href="https://www.facebook.com/melimelotlv/">
+                        <img class="center" src="images/left1.PNG">
+                </a>
+                <P><strong>Dalida</strong><br>Mediterranean - Chef</P>
+                <a href="https://en.dalidatlv.co.il/">
+                        <img class="center" src="images/left2.PNG">
+                </a>
+            </div>
+          </div>
+
+          <div class="col-4" id = "main_search">
+                <h1 >Find your table</h1><br>
+                <label class="labels" for="date">Date</label><br>
+                <input type="date" id="date" name="date" class="Buxa"><br>
+                <label class="labels" for="time">Time</label><br>
+                <input type="time" id="time" name="time" class="Buxa"><br>
+                <label class="labels" for="num_people">People</label><br>
+                <input id = "num_people" type="number" name="number" class="Buxa"><br>
+                <label class="labels" for="location">Location</label><br>
+                <input id = "location" type="location" name="location" class="Buxa"><br><br>
+                <button class="button1" type="submit">Find me a SIT</button>
+          </div>
+
+          <div class="col-4" id = right_photos>
+                <img src="images/asian.PNG"  class="center"><br>
+                <img src="images/beit_kandinof.PNG" class="center"><br>
+                <img src="images/wine.PNG" class="center"><br>
+                <img src="images/food.PNG" class="center"><br>
+                <img src="images/gaia_garden.png" class="center"><br>
+          </div>
+
+      </form>
+</div>
+
+<!-------- footer -------->
+
+<div class="col-12-footer">
+
+    <div class="col-4-footer">
+        <div class="col-12-footer">
+          <h1 id="FootCont">Contact us<br>052-5225280</h1>
+        </div>
+        <div class="col-12-footer">
+          <button class="button1_left" onclick="topFunction()" style="width:50%" id="topFunction" title="Back to top">Back to top</button>
+        </div>
+    </div>
+
+    <div class="col-4-footer">
+        <div class="rowFooter">
+            <div class="col-12-footer">
+                <a href="otherPage.html" class="footer">
+                    <button class="footerBTN">My reservation</button>
+                </a>
+            </div>
+
+            <div class="col-12-footer">
+                <a href="flowersPage.html" class="footer">
+                    <button class="footerBTN">Map</button>
+                </a>
+            </div>
+
+            <div class="col-12-footer">
+                <a href="halotPage.html" class="footer">
+                    <button class="footerBTN">About</button>
+                </a>
+            </div>
+            <div class="col-12-footer">
+                <a href="about.html" class="footer">
+                    <button class="footerBTN">Help</button>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-4-footer">
+
+
+    </div>
+</div>
+</body>
+</html>
