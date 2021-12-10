@@ -1,13 +1,9 @@
 /*---Main-----*/
 * {
   box-sizing: border-box;
-  font-family: font1;
+  font-family: 'Martel', serif;
 }
 
-@font-face {
-font-family: font1;
-src: url(AmaticSC-Bold.ttf);
-}
 
 @media only screen and (max-width: 1000px){
   body{
@@ -317,125 +313,5 @@ display: table;
 }
 
 
-/*Resize the wrap to see the search bar change!*/
-/* .wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
-/* html{
-  background-color: cornflowerblue;
-} */
-/* #GridContainter{
-  display: grid;
-  grid-template-areas:
-  'header header header header header'
-  'left main main main main ' 
-  'left main main main main'
-  'left footer footer footer footer';
-} */
-
-/* #left{
-    grid-area: left;
-    border: solid 2px black;
-    padding: 20px;
-    margin: 20px;
-} */
-
-/* #header{
-  grid-area: header;
-  height: 100px;
-  text-align: center;
-  
-} */
-
-/* #main{
-  grid-area: main;
-  border: solid 2px black;
-
-}
-
-#footer{
-  grid-area: footer;
-  text-align: center;
-} */
-
-
-/* #searchBar{
-  all: unset;
-  font: 16px system-ui;
-  color: rgb(4, 46, 160);
-  height: 100%;
-  width: 100%;
-  padding: 6px 10px;
-
-}
-
-::placeholder {
-    color: rgb(3, 3, 3);
-    opacity: 0.7; 
-  }
-
-#SB{
-  width: 300px;
-  height: 44px;
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  border: solid 2px black;
-}
-
-button {
-  all: unset;
-  cursor: pointer;
-  width: 44px;
-  height: 44px;
-}
-  
-  svg {
-    color: rgb(2, 5, 182);
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-  }
-
-  .button {
-    font: bold 11px Arial;
-    text-decoration: none;
-    background-color: #EEEEEE;
-    color: #333333;
-    padding: 2px 6px 2px 6px;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-  } */
-
-  
-  /* img{
-    float: left;
-  }
-
-  h1{
-  position: relative;
-  top: 18px;
-  left: 10px;
-  } 
-
-  h4{
-    position: relative;
-  top: 18px;
-  }
-
-  .hours{
-    bottom: 10%;
-  } */
 
   

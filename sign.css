@@ -1,12 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: font1;
+    font-family: 'Martel', serif;
 }
 
-@font-face {
-font-family: font1;
-src: url(AmaticSC-Bold.ttf);
-}
 
 
 [class*="col-"] {

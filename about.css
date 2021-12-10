@@ -114,6 +114,12 @@ display: table;
     text-align: center;
 }
 
+p{
+    color: dimgray;
+    text-align: left;
+    font-size: 25px;
+}
+
 .button1_left:hover {
     background-color: #E2DAD5;
     color: #48422a;
