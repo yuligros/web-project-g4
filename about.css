@@ -236,3 +236,9 @@ display: table;
 .center {
     text-align: center;
 }
+
+.contact {
+    text-decoration: none;
+    color: black;
+
+}
