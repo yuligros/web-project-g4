@@ -1,6 +1,6 @@
 # web-project-g4
 
-###An overview of the site
+### An overview of the site
 
 * Our first step was to create all the HTML pages of the company's SitMe site, matching the design as closely as possible to what we did in Part 1.
 
